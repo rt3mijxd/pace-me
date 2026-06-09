@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "pace-me-dev",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["next", "dev"],
+      "port": 3001,
+      "autoPort": true,
+      "cwd": "/Users/artemmkhitarian/Downloads/poker_bot/pace-me"
+    }
+  ]
+}
