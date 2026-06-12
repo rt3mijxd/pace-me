@@ -9,7 +9,7 @@ import { Bars3Icon, BellIcon } from "@heroicons/react/24/outline";
 import { ArrowRightOnRectangleIcon } from "@heroicons/react/24/outline";
 
 const pageTitles: Record<string, string> = {
-  "/": "Лента новостей",
+  "/feed": "Лента новостей",
   "/pacers": "Найти пейсера",
   "/route": "Рассказать о маршруте",
   "/organizer": "Для организаторов",
@@ -50,7 +50,7 @@ export default function Header() {
               <Bars3Icon className="w-6 h-6 text-text-primary" />
             </button>
 
-            <Link href="/" className="hidden lg:block">
+            <Link href="/feed" className="hidden lg:block">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/logo.svg" alt="PACE ME" className="h-[64px] w-auto" />
             </Link>
@@ -73,7 +73,7 @@ export default function Header() {
           {/* Right: user area (desktop) / Logo (mobile) */}
           <div className="flex items-center gap-3 shrink-0 justify-end w-[200px]">
             {/* Mobile: small logo on right */}
-            <Link href="/" className="lg:hidden">
+            <Link href="/feed" className="lg:hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/logo.svg" alt="PACE ME" className="h-[48px] w-auto" />
             </Link>

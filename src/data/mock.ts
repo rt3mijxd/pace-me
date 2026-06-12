@@ -80,7 +80,7 @@ export const sideNavItems: NavItem[] = [
   { label: "Найти пейсера", href: "/pacers", icon: "search" },
   { label: "Рассказать о маршруте", href: "/route", icon: "map" },
   { label: "Для организаторов", href: "/organizer", icon: "flag" },
-  { label: "Лента новостей", href: "/", icon: "newspaper" },
+  { label: "Лента новостей", href: "/feed", icon: "newspaper" },
   { label: "Клубы и локации для тренировок", href: "/clubs", icon: "building" },
   { label: "Всё для бега", href: "/gear", icon: "shopping" },
   { label: "Здоровье бегуна", href: "/health", icon: "heart" },
